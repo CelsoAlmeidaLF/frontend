@@ -1,0 +1,34 @@
+
+/* Systekna UIX v1.2.0-preview */
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@100;200&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&family=Shrikhand&display=swap');
+
+:root {
+    --color-light: #fefefe;
+    --color-body:hsl(275, 35%, 20%);
+    --color-dark: #020202;
+    --color-dark-primary: hsl(231, 41%, 62%);
+    --color-dark-second: hsl(231, 41%, 32%);
+    --color-light-primary: hsl(295, 94%, 46%);
+    --color-light-second:  hsl(295, 94%, 26%);
+    --color-brand: #F29B88;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    color: var(--color-light);
+    background: var(--color-body);
+    text-align: left;
+    font-family: 'Poppins', 'sans-serif';
+}
